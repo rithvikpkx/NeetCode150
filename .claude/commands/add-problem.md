@@ -8,10 +8,10 @@ If no argument is provided, run `git status` to find untracked `.md` files at th
 
 ## Step 2: Reformat the Problem File
 
-Read the file. Rewrite it to match this exact structure — preserving all of the user's reasoning and explanations, only cleaning up formatting, grammar/spelling, and structure:
+Read the file. Rewrite it to match this exact structure, preserving all of the user's reasoning and explanations and only cleaning up formatting, grammar/spelling, and structure:
 
 ```
-# {Problem Name} - NeetCode 150 #{N}
+# {Problem Name} | NeetCode 150 #{N}
 
 {One-sentence problem statement}
 
@@ -46,17 +46,17 @@ Read the file. Rewrite it to match this exact structure — preserving all of th
 - {Step-by-step walkthrough of the solution code}
 ```
 
-Do not simplify, remove, or rewrite the user's thought process or explanation - only reformat.
+Do not simplify, remove, or rewrite the user's thought process or explanation. Only reformat.
 
-**Never use em-dashes (`—`) anywhere in the file.** Use a regular hyphen (`-`) instead.
+**Never use em-dashes (`—`) or hyphens (`-`) as clause or phrase separators in prose.** Use commas, or split into separate sentences instead.
 
 ## Step 3: Extract Metadata
 
 From the problem file, determine:
 - **Problem name** (e.g., "Contains Duplicate")
 - **Problem number** (e.g., 1)
-- **Difficulty**: Easy, Medium, or Hard — infer from the problem content if not explicitly stated
-- **NeetCode category** — infer from context if not stated
+- **Difficulty**: Easy, Medium, or Hard (infer from the problem content if not explicitly stated)
+- **NeetCode category** (infer from context if not stated)
 
 NeetCode 150 categories in order:
 Arrays & Hashing · Two Pointers · Sliding Window · Stack · Binary Search · Linked List · Trees · Tries · Heap / Priority Queue · Backtracking · Graphs · Advanced Graphs · 1-D Dynamic Programming · 2-D Dynamic Programming · Greedy · Intervals · Math & Geometry · Bit Manipulation
