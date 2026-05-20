@@ -4,7 +4,7 @@
 
 ---
 
-![Solved](https://img.shields.io/badge/Solved-1%20%2F%20150-brightgreen?style=flat-square)
+![Solved](https://img.shields.io/badge/Solved-2%20%2F%20150-brightgreen?style=flat-square)
 ![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 Each problem file documents my raw thought process, the approach I landed on, the working code, and a step-by-step explanation. Written for anyone who wants to see how I reason through a problem — not just the final answer.
@@ -16,12 +16,13 @@ Each problem file documents my raw thought process, the approach I landed on, th
 > Expand a topic to browse solved problems.
 
 <details>
-<summary><strong>Arrays & Hashing</strong> &nbsp;·&nbsp; 1 / 9 solved</summary>
+<summary><strong>Arrays & Hashing</strong> &nbsp;·&nbsp; 2 / 9 solved</summary>
 
 <br>
 
 | # | Problem | Difficulty | Solution |
 |---|---------|:----------:|----------|
 | 1 | Contains Duplicate | 🟢 Easy | [View →](contains-duplicates.md) |
+| 2 | Valid Anagram | 🟢 Easy | [View →](valid-anagram.md) |
 
 </details>
