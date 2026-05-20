@@ -1,4 +1,4 @@
-# Contains Duplicates | NeetCode 150 #1
+# Contains Duplicates | Blind 75 #1
 
 Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
 
