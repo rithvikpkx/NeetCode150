@@ -1,4 +1,4 @@
-# Valid Anagram — NeetCode 150 #2
+# Valid Anagram - NeetCode 150 #2
 
 Given two strings `s` and `t`, return true if the two strings are anagrams of each other, otherwise return false.
 
@@ -6,25 +6,25 @@ An anagram is a string that contains the exact same characters as another string
 
 ## Examples
 
-*Example 1:*
+**Example 1:**
 
-Input: s = "racecar", t = "carrace"
+    Input: s = "racecar", t = "carrace"
+    
+    Output: true
 
-Output: true
 
+**Example 2:**
 
-*Example 2:*
-
-Input: s = "jar", t = "jam"
-
-Output: false
+    Input: s = "jar", t = "jam"
+    
+    Output: false
 
 
 ## Thought Process
 
 - The premise is to determine if two passed-in strings are anagrams or not
-- We need some way to compare them — bring both strings to a consistent state and compare
-- That consistent state is sorted order: if the two sorted strings match, they are anagrams; if not, they aren't
+- We need some way to compare them - bring both strings to a consistent state and compare
+- That consistent state is sorted order: if the two sorted strings match, they are anagrams; if not, they are not
 
 ## My Solution
 
@@ -49,10 +49,10 @@ class Solution {
 
 ## Explanation
 
-- First, check if the two strings have different lengths — if so, they cannot be anagrams, so return false immediately
+- First, check if the two strings have different lengths - if so, they cannot be anagrams, so return false immediately
 
 - Convert both strings to character arrays so they can be sorted
 
-- Sort both character arrays — this brings them to a canonical order where characters appear in the same sequence regardless of their original order
+- Sort both character arrays - this brings them to a canonical order where characters appear in the same sequence regardless of their original order
 
 - Compare the two sorted arrays: if they are equal, the strings contain the same characters and are anagrams; otherwise they are not

@@ -26,7 +26,7 @@ Given an integer array nums, return true if any value appears more than once in 
 
 ## My Solution
 
-```
+```java
 class Solution {
     public boolean hasDuplicate(int[] nums) {
 

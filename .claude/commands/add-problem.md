@@ -4,31 +4,31 @@ Refine a newly written problem file to match the repo's standard format, then up
 
 If `$ARGUMENTS` is provided, use that as the filename to process.
 
-If no argument is provided, run `git status` to find untracked `.md` files at the repo root — excluding `README.md` and `CLAUDE.md`. That is the file to process.
+If no argument is provided, run `git status` to find untracked `.md` files at the repo root, excluding `README.md` and `CLAUDE.md`. That is the file to process.
 
 ## Step 2: Reformat the Problem File
 
 Read the file. Rewrite it to match this exact structure — preserving all of the user's reasoning and explanations, only cleaning up formatting, grammar/spelling, and structure:
 
 ```
-# {Problem Name} — NeetCode 150 #{N}
+# {Problem Name} - NeetCode 150 #{N}
 
 {One-sentence problem statement}
 
 ## Examples
 
-*Example 1:*
+**Example 1:**
 
-Input: {input}
+    Input: {input}
+    
+    Output: {output}
 
-Output: {output}
 
+**Example 2:**
 
-*Example 2:*
-
-Input: {input}
-
-Output: {output}
+    Input: {input}
+    
+    Output: {output}
 
 
 ## Thought Process
@@ -46,7 +46,9 @@ Output: {output}
 - {Step-by-step walkthrough of the solution code}
 ```
 
-Do not simplify, remove, or rewrite the user's thought process or explanation — only reformat.
+Do not simplify, remove, or rewrite the user's thought process or explanation - only reformat.
+
+**Never use em-dashes (`—`) anywhere in the file.** Use a regular hyphen (`-`) instead.
 
 ## Step 3: Extract Metadata
 
