@@ -62,8 +62,7 @@ Arrays & Hashing · Two Pointers · Sliding Window · Stack · Binary Search · 
 ## Step 4: Update README.md
 
 1. **Increment the Solved badge**: find `Solved-{N}%20%2F%20150` in the badge URL and increment N.
-2. **Increment the difficulty badge**: find the `Easy`, `Medium`, or `Hard` badge matching the problem's difficulty and increment its count.
-3. **Add to the Progress section**:
+2. **Add to the Progress section**:
    - If a `<details>` block for the category already exists: append a new row to its table and update the summary count (e.g., `1 / 9 solved` → `2 / 9 solved`).
    - If no block for this category exists: insert a new `<details>` block, placed in NeetCode category order relative to existing blocks.
 
