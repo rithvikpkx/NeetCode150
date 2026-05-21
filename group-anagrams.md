@@ -48,3 +48,12 @@ class Solution {
 ```
 
 ## Explanation
+- Create an empty HashMap to start off --> This will contain the various anagram groups in the form <k, v> : <sorted_string, ArrayList of words>
+
+- Loop through the words array and sort the word
+
+- Based on the sorted word, either add a new key and value to map or add to an existing list
+
+- Repeat for the entire array of words
+
+- Return the values of the anagram_map as a list of list of strings
